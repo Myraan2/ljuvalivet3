@@ -1,0 +1,84 @@
+body {
+    background-color: #FAE7DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #141414;
+}
+
+nav{
+    height: 80p;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px));
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.logo{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.container{
+    padding: 8rem calc((100vw - 1200px) / 2);
+}
+
+.hero-container img{
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 2rem;
+}
+
+.text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.chat-button {
+    background-color:#A30021; /* Blå bakgrundsfärg */
+    color: white; /* Vit textfärg */
+    padding: 5px 5px; /* 10px utfyllnad över och under, 20px utfyllnad till vänster och höger */
+    border: none; /* Ingen kantlinje */
+    border-radius: 5px; /* 5px rundade hörn */
+    cursor: pointer; /* Visar en pekare när musen sveper över knappen */
+}
+
+.like-button{
+    background-color:#A30021; /* Blå bakgrundsfärg */
+    color: white; /* Vit textfärg */
+    padding: 5px 5px; /* 10px utfyllnad över och under, 20px utfyllnad till vänster och höger */
+    border: none; /* Ingen kantlinje */
+    border-radius: 5px; /* 5px rundade hörn */
+    cursor: pointer; /* Visar en pekare när musen sveper över knappen */
+}

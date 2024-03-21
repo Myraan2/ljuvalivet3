@@ -1,0 +1,95 @@
+body {
+    background-color: #FAE7DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #141414;
+}
+
+nav{
+    height: 80p;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px));
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.logo{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.wrapper{
+    position: relative;
+    width: 400;
+    height: 440px;
+    background: black;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*overflow: hidden; */
+    transition: height .2s ease;
+}
+
+.wrapper.active{
+    height: 520px;
+}
+
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+
+.wrapper .form-box.register{
+    position: absolute;
+    transform: translateX(400px);
+}
+
+.remember-forget a{
+    color: #FAE7DB;
+}
+
+.wrapper .register-link{
+    color: #FAE7DB;
+}
+
+.wrapper .form.box.login{
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.wrapper.active .form.box.login{
+    transition: none;
+    transform: translateX(400px);
+}
+
+.wrapper .login-link{
+    color: #FAE7DB;
+}
