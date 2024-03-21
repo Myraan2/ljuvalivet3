@@ -31,13 +31,32 @@
             <div class="column-left">
                 <h1>Gå på eran första dejt</h1>
                 <p class="text">Välkommen till Ljuva livet <br> där kärleken blomstrar. <br>Upptäck din själsfrände <br> 
-                    och låt kemin gnistra. <br> Skapa din gratis profil redan idag</p>
-                    <a href="registrera.html"><button>Skapa konto</button></a>
+                    och låt kemin gnistra. <br> Skapa din gratis profil redan idag
+                </p>
+                <button id="myButton">Skapa konto</button>
+                <script>
+                    // Hämta knappen
+                    var knapp = document.getElementById("myButton");
+                
+                    // Lägg till en händelselyssnare
+                    knapp.addEventListener("click", function() {
+                        // Dirigera användaren till den andra sidan
+                        window.location.assign("registrera.html");
+                    });
+                </script>
+                
+
+                    
+                    
+
+
+                    
                 
             </div>
         </div>
 
+    
     </section>
-   
+    
 </body>
 </html>
